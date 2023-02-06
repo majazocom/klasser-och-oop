@@ -25,6 +25,7 @@ const home = {
 ["title", "adress", "occupants", "writeInfo", "<din nya funktion>"]
 ```
 6. Skriv din egen version av home-objektet. Med till exempel color, actor, user etc
+
 ## 2. Constructor
 Exempel på en basic constructor:
 ```
@@ -41,5 +42,8 @@ const home = new Home();
 ## 3. Prototypes
 1. Lägg till (manuellt) en ny property under ```home.prototype``` på din constructor som innehåller en funktion. Så det ser ut som i övning 1.1 med home.writeInfo.
 2. Kalla på din nya funktion och se vad som skrivs ut
+3. Skriv en till liknande property med valfritt värde
 
-## 4. Arv
+## 4. Klasser
+1. Skapa en klass som har propertys 'name', 'year', 'likes'. Valfra värden på dem.
+2. Skapa en ny variabel som använder sig av din nya klass och skickar in värden till den
