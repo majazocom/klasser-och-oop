@@ -25,6 +25,14 @@ const home = {
 ["title", "adress", "occupants", "writeInfo", "<din nya funktion>"]
 ```
 ## Constructor
+Exempel på constructor:
+```
+function Home() {
+  console.log('nytt home skapat')
+}
+
+const home = new Home();
+```
 
 ## Prototypes
 
