@@ -36,10 +36,10 @@ const home = new Home();
 ```
 
 1. Skriv en ny constructor som tar in 3st parametrar och sparar de som värden i ett nytt objekt. Använd dig av ```this```
-2. Lägg till (manuellt) en ny property på din constructor som innehåller en funktion. Så som i övning 1.1 med home.writeInfo.
-3. Kalla på din nya funktion och se vad som skrivs ut
-4. Skapa din egen version av Home-constructorn nu.
+2. Skapa din egen version av Home-constructorn nu.
 
 ## 3. Prototypes
+1. Lägg till (manuellt) en ny property under ```home.prototype``` på din constructor som innehåller en funktion. Så det ser ut som i övning 1.1 med home.writeInfo.
+2. Kalla på din nya funktion och se vad som skrivs ut
 
 ## 4. Arv
