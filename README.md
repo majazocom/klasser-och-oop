@@ -45,5 +45,5 @@ const home = new Home();
 3. Skriv en till liknande property med valfritt värde
 
 ## 4. Klasser
-1. Skapa en klass som har propertys 'name', 'year', 'likes'. Valfra värden på dem.
-2. Skapa en ny variabel som använder sig av din nya klass och skickar in värden till den
+1. Skapa en klass som har propertys 'name', 'year', 'likes'. Klassen skall använda sig av en constructor som tar in parametrar som kan läggas som värden på dina propertys.
+2. Skapa en ny variabel som använder sig av din nya klass och skickar in värden till den.
