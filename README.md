@@ -18,9 +18,12 @@ const home = {
 3. Kalla på den nya funktionen
 4. Skriv ut alla värden på de olika propertys som finns i objektet. Det skall se ut så här efteråt: 
 ```
-["Villa Villekulla", "Bråkmakargatan 11", 1, f]
+["Villa Villekulla", "Bråkmakargatan 11", 1, f, f]
 ```
-
+5. Skriv ut alla propertys som finns i objektet. Det skall se ut så här efteråt:
+```
+["title", "adress", "occupants", "writeInfo", "<din nya funktion>"]
+```
 ## Constructor
 
 ## Prototypes
