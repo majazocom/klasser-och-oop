@@ -2,7 +2,7 @@
 Övningar inom klasser och OOP inom JS
 
 
-## Object Literals
+## 1. Object Literals
 ```
 const home = {
   title: "Villa Villekulla",
@@ -24,16 +24,19 @@ const home = {
 ```
 ["title", "adress", "occupants", "writeInfo", "<din nya funktion>"]
 ```
-## Constructor
-Exempel på constructor:
+## 2. Constructor
+Exempel på en basic constructor:
 ```
 function Home() {
-  console.log('nytt home skapat')
+  console.log('nytt home-objekt skapat')
 }
 
 const home = new Home();
 ```
 
-## Prototypes
+1. Skriv en ny constructor som tar in 3st parametrar och sparar de som värden i ett nytt objekt. Använd dig av ```this```
+2. Lägg till (manuellt) en ny property på din constructor som innehåller en funktion. Så som i övning 1.1 med home.writeInfo.
 
-## Arv
+## 3. Prototypes
+
+## 4. Arv
