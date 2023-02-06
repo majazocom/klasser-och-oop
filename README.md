@@ -24,6 +24,7 @@ const home = {
 ```
 ["title", "adress", "occupants", "writeInfo", "<din nya funktion>"]
 ```
+6. Skriv din egen version av home-objektet. Med till exempel color, actor, user etc
 ## 2. Constructor
 Exempel på en basic constructor:
 ```
