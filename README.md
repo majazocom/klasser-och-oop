@@ -9,9 +9,16 @@ const home = {
   adress: "Bråkmakargatan 11",
   occupants: 1,
   writeInfo: function() {
-    `Det bor ${this.occupants} person i ${this.title} för tillfället`
+    return `Det bor ${this.occupants} person i ${this.title} för tillfället`
   }
 }
+```
+1. Kalla på funktionen writeInfo
+2. Skriv en till funktion i objektet som skriver ut adressen
+3. Kalla på den nya funktionen
+4. Skriv ut alla värden på de olika propertys som finns i objektet. Det skall se ut så här efteråt: 
+```
+["Villa Villekulla", "Bråkmakargatan 11", 1, f]
 ```
 
 ## Constructor
